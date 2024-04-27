@@ -1,9 +1,8 @@
 from PIL import Image
 import streamlit as st
-import requests
 import model
 
-# Streamlit layout
+
 st.title("CIFAR10 Prediction")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])

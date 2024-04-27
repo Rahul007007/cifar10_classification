@@ -1,7 +1,6 @@
 import requests
 import streamlit as st
 
-# Streamlit layout
 st.title("CIFAR10 Prediction")
 
 HOST = "http://localhost:8000"

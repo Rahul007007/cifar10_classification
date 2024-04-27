@@ -36,6 +36,6 @@ The following files are present in this repository:
 
 - `app.py`: The main Streamlit app file to run directly.
 - `requirements.txt`: The list of Python dependencies required by the app.
-- `model.py`: Contains the code for loading and using the pre-trained model.
-- `app_endpoint.py`: Contains api_endpoint for the prediction.
+- `model.py`: Contains the code for loading and using the model.
+- `app_endpoint.py`: Contains FASTAPI endpoint for the prediction.
 - `app_with_fastapi.py`: Contains the code for the Streamlit app with FastAPI endpoint.
