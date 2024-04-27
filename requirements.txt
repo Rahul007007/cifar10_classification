@@ -1,0 +1,8 @@
+transformers
+pillow
+streamlit
+requests
+fastapi
+torch
+uvicorn
+gunicorn
