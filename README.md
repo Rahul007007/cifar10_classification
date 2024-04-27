@@ -19,7 +19,7 @@ Step 1: Access the app directly on the link (This does not use the FastAPI endpo
 Step 2: Use the Streamlit app via the FastAPI endpoint.(This could not be deployed due to non-accessibility of a non-crashable server like an AWS ec2 instance) 
 - Run the FastAPI server on any instance using the following command:
     ```
-    uvicorn api_endpoint:app --reload --host <host_name>
+    uvicorn api_endpoint:app --reload --host <host_name> --port <port_number>
     ```
 - Change the HOST variable on the `app_with_fastapi.py` file.
 - Execute the app_with_fastapi.py file using the following command:
