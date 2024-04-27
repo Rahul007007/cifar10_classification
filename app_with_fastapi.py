@@ -18,7 +18,7 @@ if uploaded_file is not None:
 
         if response.status_code == 200:
             result = response.json()
-            st.header(f"Predicted Label: {result['predicted_class']}")
+            st.header(f"Predicted class: {result['predicted_class']}")
         else:
             st.error("Error processing image. Please try again.")
 

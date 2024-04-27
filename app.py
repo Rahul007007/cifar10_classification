@@ -19,6 +19,6 @@ if uploaded_file is not None:
         predicted_class = model.predict(image)
 
         if predicted_class is not None:
-            st.header(f"Predicted Label: {predicted_class}")
+            st.header(f"Predicted class: {predicted_class}")
         else:
             st.error("Error processing image. Please try again!")
