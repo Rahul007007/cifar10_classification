@@ -19,7 +19,7 @@ Check out the configuration reference at https://huggingface.co/docs/hub/spaces-
 Step 1: Access the app directly on the link (This does not use the FastAPI endpoints):
 [https://huggingface.co/spaces/TrishanuDas/cifar10_classification](https://huggingface.co/spaces/TrishanuDas/cifar10_classification)
 
-Step 2: Use the Streamlit app via the FastAPI endpoint. 
+Step 2: Use the Streamlit app via the FastAPI endpoint.(This could not be deployed due to non-accessibility of a non-crashable server like an AWS ec2 instance) 
 - Run the FastAPI server on any instance using the following command:
     ```
     uvicorn api_endpoint:app --reload --host <host_name>
